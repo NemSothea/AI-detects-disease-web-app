@@ -22,6 +22,31 @@
 | **Database** | PostgreSQL |
 | **Deployment** | To be determined |
 
+## 🗂️ Project Structure
+
+```
+plant-disease-detector/
+├── 📁 src/
+│   ├── 📁 main/
+│   │   ├── 📁 java/
+│   │   │   └── 📁 com/
+│   │   │       └── 📁 example/
+│   │   │           ├── 📁 controller/          # 🎮 Spring Controllers
+│   │   │           │   └── DiseaseController.java
+│   │   │           ├── 📁 service/             # ⚙️ Business Services
+│   │   │           │   └── DiseaseService.java
+│   │   │           └── PlantDiseaseDetectorApplication.java  # 🚀 Main App
+│   │   └── 📁 resources/
+│   │       ├── 📁 static/                     # 🎨 Static Assets
+│   │       │   ├── 📁 css/
+│   │       │   ├── 📁 js/
+│   │       │   └── 📁 uploads/                # 📸 Image Storage
+│   │       ├── 📁 templates/                  # 📄 Thymeleaf Views
+│   │       │   └── result.html
+│   │       └── application.properties         # ⚙️ Configuration
+├── 📁 lib/                                    # 📦 External Libraries
+└── pom.xml                                    # 📋 Maven Dependencies
+```
 ## 🗃️ Database Design
 
 ### Users Table
