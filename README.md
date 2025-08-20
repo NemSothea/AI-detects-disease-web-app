@@ -91,7 +91,7 @@
 
 ### Installation
 1. Clone the repository:
-`git clone https://github.com/your-username/ai-detects-disease-web-app.git`
+`git clone [https://github.com/NemSothea/AI-detects-disease-web-app]`
 
 2. Navigate to project directory:
 
@@ -103,7 +103,7 @@ mvn clean install
 5. Run the application:
 mvn spring-boot:run
 
-6. Access the application at `http://localhost:8080`
+6. Access the application at `http://localhost:8081`
 
 ## 📊 AI Model Details
 
