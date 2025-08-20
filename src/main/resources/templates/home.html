@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <div layout:fragment="content">
+        <h1>Recent Detections</h1>
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Image</th>
+                    <th>Disease</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="record : ${records}">
+                    <td th:text="${record.id}"></td>
+                    <td>
+                        <img th:src="@{'/uploads/' + ${record.imageUrl}}" 
+                             width="100" 
+                             class="img-thumbnail"
+                             alt="Plant image">
+                    </td>
+                    <td th:text="${record.diseaseName}"></td>
+                    <td th:text="${record.date}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
