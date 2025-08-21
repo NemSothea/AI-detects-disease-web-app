@@ -101,11 +101,11 @@ plant-disease-detector/
 
 | Member | Role | Responsibilities |
 |--------|------|------------------|
-| **Sothea** | Backend Developer | Spring Boot implementation, API development |
-| **Pisey** | Frontend Developer | UI/UX design, Thymeleaf integration |
-| **Seyha** | AI Integration Specialist | TensorFlow model integration, image processing |
-| **Srey Nich** | Database Administrator | PostgreSQL management, data architecture |
-| **All Members** | Documentation | Collaborative documentation efforts |
+| **Sothea** | Backend Developer | Spring Boot implementation, API development | AI Integration Specialist | TensorFlow model integration, image processing 
+| **Pisey** |  Database Administrator | PostgreSQL management, data architecture 
+| **Seyha** | Frontend Developer | UI/UX design, Thymeleaf integration 
+| **Srey Nich** | Documentation
+| **All Members** | Collaborative documentation efforts |
 
 ## 🚀 Getting Started
 
@@ -142,7 +142,7 @@ The application uses a convolutional neural network (CNN) trained on the PlantVi
 - Potatoes
 - Corn
 
-Current accuracy: ~95% on test data for supported crop types.
+Current accuracy: ~85% on test data for supported crop types.
 
 ## 🌍 Impact & Benefits
 
