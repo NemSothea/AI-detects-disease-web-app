@@ -101,11 +101,11 @@ plant-disease-detector/
 
 | Member | Role | Responsibilities |
 |--------|------|------------------|
-| **Sothea** | Backend Developer | Spring Boot implementation, API development | AI Integration Specialist | TensorFlow model integration, image processing 
-| **Pisey** |  Database Administrator | PostgreSQL management, data architecture 
-| **Seyha** | Frontend Developer | UI/UX design, Thymeleaf integration 
-| **Srey Nich** | Documentation
-| **All Members** | Collaborative documentation efforts |
+| **Sothea** | Backend Developer & AI Integration Specialist | Spring Boot implementation, API development, TensorFlow model integration, image processing |
+| **Pisey** |  Database Administrator | PostgreSQL management, data architecture |
+| **Seyha** | Frontend Developer | UI/UX design, Thymeleaf integration |
+| **Srey Nich** | Documentation Lead | Slide creation, presentation demo, coordinating documentation efforts |
+| **All Members** | | Collaborative documentation efforts |
 
 ## 🚀 Getting Started
 
